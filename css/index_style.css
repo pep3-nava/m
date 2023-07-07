@@ -3802,9 +3802,11 @@ background-color: transparent;
 
 .mimi {
   text-align: center; 
-  color: silver ;
+  color:  greenyellow ;
    font-size: 40px; 
    text-align: center;
+   font-family: 'Trade Winds', cursive;
+
 }
 
 .sd-top-panel-lang .ui-selectmenu-button.ui-button,

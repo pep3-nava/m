@@ -968,9 +968,10 @@ textarea {
 
 .mimi {
   text-align: center; 
-  color: silver ;
+  color: lime;
    font-size: 40px; 
    text-align: center;
+   font-family: 'Rock 3D', cursive;
 }
 .sd-block-ecom-code.sd-block-ecom-code-online-store {
   padding-top: 0px !important;

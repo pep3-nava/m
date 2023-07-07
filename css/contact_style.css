@@ -23,9 +23,10 @@ body {
 
 .mimi {
   text-align: center; 
-  color: silver ;
+  color: blue ;
    font-size: 40px; 
    text-align: center;
+   font-family: 'Frijole', cursive;
 }
 
 ::-moz-selection {
@@ -74,7 +75,7 @@ body {
 }
 
 .noscroll {
-  -webkit-overflow-scrolling: touch !important;
+  -overflow-scrolling: touch !important;
   -ms-touch-action: manipulation !important;
   touch-action: manipulation !important;
   overflow: hidden !important;

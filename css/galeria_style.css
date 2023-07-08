@@ -945,6 +945,12 @@ textarea {
   overflow: hidden;
 }
 
+.footer {
+  text-align: center;
+  font-family: 'Creepster', cursive;
+  color: powderblue;
+
+}
 .sd-image-credit-img {
   float: left;
 }
@@ -968,10 +974,12 @@ textarea {
 
 .mimi {
   text-align: center; 
-  color: lime;
+  color: powderblue;
    font-size: 40px; 
    text-align: center;
-   font-family: 'Rock 3D', cursive;
+   font-family: 'Bungee Shade', cursive;
+   background-image: url(../img/logos/logo-02.png);
+
 }
 .sd-block-ecom-code.sd-block-ecom-code-online-store {
   padding-top: 0px !important;
@@ -3757,10 +3765,11 @@ img.has-border-radius {
 
 #sd-editor-main-body,
 .sd-publish-site {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 0);
+  /* background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 0);
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 0);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 0);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffffff", endColorstr="#000000", GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffffff", endColorstr="#000000", GradientType=0); */
+  background-color: transparent;
 }
 
 #sd-main-wrap {
@@ -4265,11 +4274,11 @@ background-color: transparent;
 }
 
 .sd-header-image-blur {
-  background-image: url(/images/public/sd_649bc1890bd59.jpg?no_cache=1687931551);
+  background-image: url(../images/public/sd_649bc1890bd59.jpg?no_cache=1687931551);
 }
 
 .sd-header-image-blur:after {
-  background-image: url(/images/public/sd_649bc1890bd59.jpg?no_cache=1687931551);
+  background-image: url(../images/public/sd_649bc1890bd59.jpg?no_cache=1687931551);
 }
 
 .sd-bg-wrapper.sd-header-image:after {
@@ -4277,7 +4286,7 @@ background-color: transparent;
 }
 
 .sd-bg-wrapper-texture {
-  background-image: url(/img/textures/texture_056.png?no_cache=1530850452);
+  background-image: url(../img/textures/texture_056.png?no_cache=1530850452);
 }
 
 .sd-header-page-type-tagline #sd-header {

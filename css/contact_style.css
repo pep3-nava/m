@@ -22,11 +22,12 @@ body {
 }
 
 .mimi {
-  text-align: center; 
+  text-align: center;
   color: blue ;
-   font-size: 40px; 
-   text-align: center;
-   font-family: 'Frijole', cursive;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Frijole', cursive;
+  background: url(../img/logos/logo-02.png);
 }
 
 ::-moz-selection {
@@ -1255,6 +1256,27 @@ textarea {
   margin: 20px auto;
   margin-bottom: 15px;
 }
+ 
+@font-face {
+  font-family: WaxedtownGTDemo;
+  src: url(../img/fonts/WaxedtownGTDemo.ttf);
+}
+
+#inicio {
+  font-family: WaxedtownGTDemo;
+  color :gold;
+  background: url(../img/logos/logo-02.png);
+  font-size: 30px;
+  text-align: center;
+}
+
+#contacto {
+  font-family: waxedtownGTDemo;
+  color : powderblue;
+  background: url(../img/logos/logo-02.png);
+  font-size: 30px;
+  text-align: center;
+}
 
 .sd-ct-bnt-send:hover {
   opacity: 0.8;
@@ -1384,7 +1406,13 @@ textarea {
 }
 
 .sd-cfa-button-type-color-4 {
-  background: linear-gradient(darkgoldenrod, gold, goldenrod, yellow, chocolate );
+  background: radial-gradient(gold,silver,gold,silver);
+  animation: msj 1.5s infinite;
+}
+
+@keyframes msj {
+  from {background:radial-gradient(gold,silver,gold,silver,);}
+  to {background:radial-gradient(silver,gold,silver,gold,silver);}
 }
 
 
@@ -1423,6 +1451,32 @@ textarea {
   color: #fff !important;
 }
 
+
+  @font-face {
+    font-family: IceCaps;
+    src: url(../img/fonts/IceCaps.ttf);
+
+}
+
+#inge {  
+  font-family: IceCaps;
+  color:beige; 
+  text-align: left;
+  font-size: 40px;
+}
+
+@font-face {
+  font-family: ace;
+  src:url(../img/fonts/Ace\ Records.ttf)
+}
+
+#inge1 {
+  font-family: ace;
+  color: beige;
+  text-align: center;
+  font-size: 55px;
+}
+
 .sd-cfa-social-icon {
   font-size: 35px;
   display: inline-block;
@@ -1453,7 +1507,7 @@ textarea {
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(226, 21, 21, 0);
   -webkit-tap-highlight-color: transparent;
-  
+
 }
 
 .sd-social-icon-color-facebook {
@@ -1513,8 +1567,14 @@ textarea {
 }
 
 .sd-comm-app-icon-color-phone {
-  background: linear-gradient(-55deg,black, lightgrey, grey, darkgrey, black);
   cursor: pointer;
+  background: grey;
+  animation: fone 2.5s infinite;
+}
+
+@keyframes fone {
+  from {background: radial-gradient(black,grey,gray,black);}
+  to {background: radial-gradient( grey,gray,black,grey);}
 }
 
 .sd-comm-app-icon-color-line {
@@ -1534,8 +1594,14 @@ textarea {
 }
 
 .sd-comm-app-icon-color-whatsapp {
+  cursor: help;
   background: linear-gradient(-0deg, forestgreen, green, darkgreen, limegreen, lawngreen);
-  cursor: pointer;
+  animation: whats 2.5s infinite;
+}
+
+@keyframes whats {
+  from {background: radial-gradient(green,darkgreen,limegreen,forestgreen);}
+  to {background: radial-gradient(darkgreen,lawngreen,forestgreen,green);}
 }
 
 
@@ -2592,6 +2658,12 @@ a:hover {
   min-height: 42px;
   margin-top: 10px;
   word-wrap: break-word;
+}
+
+.footer {
+  text-align: center; 
+  font-family: 'Creepster', cursive;
+  color: blue;
 }
 
 #sd-footer-content p {
@@ -3789,7 +3861,7 @@ img.has-border-radius {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.50) 75%, rgba(0, 0, 0, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#000000", GradientType=0);
 */
-background-color: transparent;
+  background-color: transparent;
 }
 
 .sd-header-page-type-tagline #sd-header-gradient:before {
@@ -3798,7 +3870,7 @@ background-color: transparent;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#000000", GradientType=0);
 */
-background-color: transparent;
+  background-color: transparent;
 }
 
 #sd-header-gradient:after {
@@ -4750,5 +4822,3 @@ background-color: transparent;
     top: 402.8px;
   }
 }
-
-s

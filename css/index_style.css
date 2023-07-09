@@ -1688,7 +1688,6 @@ textarea {
   border-radius: 15px;
   padding: 4px 10px;
   color: rgba(255, 255, 255, 0.85);
-  float: left;
   margin-right: 3px;
   font-size: 13px !important;
 }
@@ -1730,13 +1729,13 @@ textarea {
 .sd-bottom-style {
   font-size: 13px;
 }
-
-#sd-credit {
-  position: relative;
-  float: right;
-  display: inline-block;
-}
-
+/*  */
+/* #sd-credit { */
+  /* position: relative; */
+  /* float: right; */
+  /* display: inline-block; */
+/* } */
+/*  */
 .sd-go-to-home {
   cursor: pointer;
 }
@@ -2469,8 +2468,10 @@ a:hover {
 
 }
 
-.sd-tab>.sd-tab-item-active>a {}
-
+/* .sd-tab> .sd-tab-item-active > a { */
+/*  */
+/* } */
+/*  */
 .sd-tab>li>a:hover,
 .sd-tab>li>a:focus,
 .sd-tab>.sd-tab-item-active>a {
@@ -4005,12 +4006,12 @@ img.has-border-radius {
 }
 
 @font-face {
-  font-family: lunatic;
-  src: url(../img/fonts/Lunatic.ttf);
+  font-family: beiser;
+  src: url(../img/fonts/Baiser.ttf);
 }
 
 .grp {
-  font-family: lunatic;
+  font-family: beiser;
   color: gold;
   text-align: left;
   font-size: 100px;

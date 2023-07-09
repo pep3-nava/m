@@ -7,6 +7,26 @@ body {
   touch-action: manipulation;
 }
 
+@font-face {
+  font-family: watxt;
+  src: url(../img/fonts/WaxedtownGTDemo.ttf);
+}
+
+#inicio {
+  font-family: watxt;
+  color:powderblue;
+  background: url(../img/logos/logo-02.png);
+  text-align: center;
+  font-size: 30px;
+}
+
+#menu {
+  font-family: watxt;
+  color: gold;
+  background: url(../img/logos/logo-02.png);
+  text-align: center;
+  font-size: 30px;
+}
 
 .sd-column-nav-fixed::-webkit-scrollbar {
   display: none;

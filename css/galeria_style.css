@@ -298,6 +298,27 @@ textarea {
   margin-bottom: 17px;
 }
 
+@font-face {
+  font-family: waxe;
+  src: url(../img/fonts/WaxedtownGTDemo.ttf);
+}
+
+#inicio {
+  font-family: waxe;
+  color: gold;
+  background: url(../img/logos/logo-02.png);
+  font-size: 30px;
+  text-align: center;
+}
+
+#galeria {
+  font-family: waxe;
+  color: powderblue;
+  background: url(../img/logos/logo-02.png);
+  font-size: 30px;
+  text-align: center;
+}
+
 .sd-subscription-logo-popup {
   width: 145px;
   margin: auto;
@@ -1707,7 +1728,7 @@ textarea {
   border-radius: 15px;
   padding: 4px 10px;
   color: rgba(255, 255, 255, 0.85);
-  float: left;
+  /* float: left; */
   margin-right: 3px;
   font-size: 13px !important;
 }
@@ -1934,9 +1955,9 @@ textarea {
   padding: 0 28px 0 16px;
   background-color: transparent;
   height: 24px;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  /* appearance: none; */
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
 }
 
 .sd-top-panel-lang .lang-select,
@@ -4009,8 +4030,6 @@ background-color: transparent;
   right: -5%;
   width: 95%;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.23);
-  clip-path: inset(-100px 1px -100px -100px);
-  -webkit-clip-path: inset(-100px 1px -100px -100px);
 }
 
 .sd-mobnav-btn,
